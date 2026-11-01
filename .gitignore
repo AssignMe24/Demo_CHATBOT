@@ -45,3 +45,6 @@ Thumbs.db
 # Environment/secrets
 .env
 .env.*
+
+# RAR files
+*.rar
