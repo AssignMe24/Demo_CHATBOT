@@ -47,4 +47,4 @@ Thumbs.db
 .env.*
 
 # RAR files
-*.rar
+*.rar*.rar
