@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local databases / user history
+*.db
+chat_history.db
+feedback.db
+
+# HR/source documents - do NOT upload confidential documents
+documents/
+*.pdf
+*.docx
+*.xlsx
+*.xls
+
+# RAG caches / indexes
+cache/
+.cache/
+rag_cache/
+embeddings/
+indexes/
+faiss_index/
+*.faiss
+*.index
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*

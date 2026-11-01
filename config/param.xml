@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!-- How many candidate chunks to retrieve from FAISS (broad first pass) -->
+  <candidate_k>20</candidate_k>
+
+  <!-- How many chunks to keep after CrossEncoder reranking (narrow second pass) -->
+  <final_k>5</final_k>
+
+  <!-- Set to true to re-ingest a new PDF, false to reuse cached index -->
+  <new_pdf>true</new_pdf>
+
+  <!-- Maximum tokens the LLM may generate per answer -->
+  <max_tokens>512</max_tokens>
+
+  <!-- How many neighbouring chunks to include around each top result (0 = none) -->
+  <context_window>1</context_window>
+
+  <!-- Minimum cosine-similarity score to consider a retrieval "confident" (0–1) -->
+  <abs_threshold>0.30</abs_threshold>
+</config>
